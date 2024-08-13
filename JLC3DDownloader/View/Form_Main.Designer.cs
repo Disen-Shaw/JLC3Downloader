@@ -90,7 +90,7 @@
             this.tsBtn_TopMost.Image = ((System.Drawing.Image)(resources.GetObject("tsBtn_TopMost.Image")));
             this.tsBtn_TopMost.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsBtn_TopMost.Name = "tsBtn_TopMost";
-            this.tsBtn_TopMost.Size = new System.Drawing.Size(23, 21);
+            this.tsBtn_TopMost.Size = new System.Drawing.Size(23, 22);
             this.tsBtn_TopMost.Text = "-";
             this.tsBtn_TopMost.ToolTipText = "显示在最上层";
             this.tsBtn_TopMost.Click += new System.EventHandler(this.tsBtn_TopMost_Click);
@@ -210,6 +210,7 @@
             this.txtBx_Log.Multiline = true;
             this.txtBx_Log.Name = "txtBx_Log";
             this.txtBx_Log.ReadOnly = true;
+            this.txtBx_Log.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtBx_Log.Size = new System.Drawing.Size(636, 106);
             this.txtBx_Log.TabIndex = 0;
             // 

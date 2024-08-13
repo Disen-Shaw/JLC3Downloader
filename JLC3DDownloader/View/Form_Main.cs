@@ -188,9 +188,7 @@ namespace JLC3DDownloader
                         objectDictionary.Add(item.name, item.code);
                     }
                     LogAppend($"识别到 {objectDictionary.Count} 个元件信息");
-                    LogAppend("开始下载... ...");
                     _sp.DownloadDictionary(objectDictionary, _fileSavePath);
-                    LogAppend("已完成下载操作");
                 } 
                 else
                 {
